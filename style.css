@@ -1,0 +1,87 @@
+body {
+    background-color: beige;
+    text-align: center;
+}
+
+#title {
+    font-family: cursive;
+}
+
+.main {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin: 30px;
+}
+
+.Facts {
+    border: 1px solid orange;
+    border-radius: 2px;
+    width:500px;
+    height:500px;
+    text-align: center;
+    padding: 30px; 
+    font-family: cursive;
+}
+
+#fact {
+    background-color: blue;
+    color: White;
+    border-radius:10px;
+    padding: 10px;
+    font-weight:900;
+    font-size: medium;
+    margin-top:20px;
+}
+
+#catFact {
+    font-size:larger;
+    font-weight: 700;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: cursive;
+}
+
+#p {
+    width:500px;
+    height:300px;
+    margin-top:40px;
+}
+
+.Pics {
+    border: 1px solid orange;
+    border-radius: 2px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding:30px; 
+    font-family: cursive;
+}
+
+#pic {
+    background-color: blue;
+    color: White;
+    border-radius:10px;
+    padding: 10px;
+    font-weight:900;
+    font-size: medium;
+    margin-top:10px;
+}
+
+#dogImg {
+    width:500px;
+    height:350px;
+}
+
+#pic:hover {
+    background-color: rgb(244, 252, 4);
+    color: Brown;
+    font-weight:900;
+    font-size: medium;
+}
+
+#fact:hover {
+    background-color: rgb(244, 252, 4);
+    color: Brown;
+    font-weight:900;
+    font-size: medium;
+}
